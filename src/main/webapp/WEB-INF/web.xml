@@ -6,9 +6,19 @@
             <param-name>name</param-name>
             <param-value>Anonymous</param-value>
         </init-param>
+        <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
         <servlet-name>HelloWorld</servlet-name>
         <url-pattern>/helloworld</url-pattern>
     </servlet-mapping>
+    <!-- 
+    <filter>
+        <filter-name>HelloFilter</filter-name>
+        <filter-class>com.revature.web.HelloFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>HelloFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping> -->
 </web-app>
